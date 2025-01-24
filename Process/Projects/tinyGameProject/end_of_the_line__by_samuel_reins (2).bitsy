@@ -1,0 +1,980 @@
+End of the line. By Samuel Reinstein Wright {exit "0" 1 7}
+
+# BITSY VERSION 8.12
+
+! VER_MAJ 8
+! VER_MIN 12
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+0,82,204
+128,159,255
+254,245,253
+NAME blueprint
+
+ROOM 0
+s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,r
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,h
+v,0,0,0,0,0,0,0,0,0,0,0,0,0,0,h
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,b,h
+v,0,0,0,0,0,0,0,0,0,0,0,0,b,p,i
+u,0,0,0,0,0,0,0,0,0,0,0,0,b,o,q
+v,0,0,0,0,0,0,0,0,0,0,0,0,t,d,n
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,c,f
+v,0,0,0,0,0,0,0,0,0,0,0,0,t,b,g
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,b,h
+v,0,0,0,0,0,0,0,0,0,0,0,0,0,0,h
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,h
+v,0,0,0,0,0,0,0,0,0,0,0,0,0,0,h
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,h
+v,0,0,0,0,0,0,0,0,0,0,0,0,0,0,h
+j,j,j,j,j,j,j,j,m,l,k,j,j,j,j,i
+NAME Room 1
+ITM 8 2,7
+PAL 0
+TUNE 2
+
+ROOM 2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PAL 0
+
+TIL a
+11111111
+10000001
+10000001
+10011001
+10011001
+10000001
+10000001
+11111111
+NAME block
+WAL true
+
+TIL b
+00010000
+00101000
+00001011
+11011010
+01111110
+01111110
+00111110
+00111100
+NAME Grass
+
+TIL c
+01111111
+01001111
+01000111
+01000111
+01000111
+00010111
+11000111
+11100111
+NAME Door
+WAL true
+
+TIL d
+00010111
+00101111
+00011111
+00111111
+01111111
+11111111
+11111111
+01111111
+NAME Roof1
+WAL true
+
+TIL e
+11100000
+01000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME fence
+WAL false
+
+TIL f
+11111111
+11111111
+11111111
+11111111
+01111111
+00011111
+01000111
+01010111
+NAME Wall1
+WAL true
+
+TIL g
+10010111
+01000111
+00110111
+00001111
+00001100
+00011100
+00011100
+00001100
+NAME wall2
+WAL true
+
+TIL h
+00001100
+00011100
+00011100
+00001100
+00001100
+00011100
+00011100
+00001100
+NAME Fence1
+WAL true
+
+TIL i
+00001100
+00011100
+00011100
+11111100
+11111100
+00001100
+11111100
+00001100
+NAME FenceFrontCorner
+WAL true
+
+TIL j
+00010000
+00110000
+00111000
+11111111
+11111111
+00111000
+11111111
+00111000
+NAME FenceFront
+WAL true
+
+TIL k
+00000000
+10000000
+11000000
+01101111
+10110111
+01011000
+01101101
+00110110
+NAME Roof2
+WAL true
+
+TIL l
+01111110
+11111111
+10000001
+00100100
+11011011
+00011000
+00011000
+11111111
+NAME roof3
+WAL true
+
+TIL m
+00110000
+00110011
+01100110
+11101101
+11111011
+01110111
+11101110
+11011100
+NAME roof4
+WAL true
+
+TIL n
+11101111
+11011111
+10111111
+01001111
+10101111
+10010111
+11100111
+11111001
+NAME RoofWindow
+WAL true
+
+TIL o
+00011000
+00111000
+00111000
+00011000
+00011000
+00111000
+00111001
+00011011
+NAME Littlebitofroof
+WAL true
+
+TIL p
+00001000
+00011000
+00111000
+00111111
+00011111
+00111000
+00111111
+00011000
+NAME topCornerFence
+WAL true
+
+TIL q
+00000000
+00000000
+00000011
+00001111
+00111111
+11111100
+11111011
+11110111
+NAME Roof3
+
+TIL r
+11111100
+00111011
+11010111
+11101111
+11110111
+11101011
+01101111
+00011101
+NAME ROck1
+WAL true
+
+TIL s
+11111100
+00111011
+11010111
+11110011
+11101101
+11111111
+11011111
+00001100
+NAME Rock2
+WAL true
+
+TIL t
+00011100
+00111110
+01111111
+01111010
+01010101
+00101010
+10010000
+01000100
+NAME Rock
+WAL true
+
+TIL u
+11000000
+01100000
+11000000
+11110000
+10100100
+11111000
+00110000
+11101100
+NAME Trees?
+WAL true
+
+TIL v
+11000000
+11001000
+11000000
+11011001
+11100010
+11100010
+10111000
+00000000
+WAL true
+
+SPR A
+00111100
+01111110
+01101100
+01111110
+01110010
+00111110
+00010100
+00010100
+>
+00000000
+00111110
+01111110
+01101100
+01110010
+01111110
+00111110
+00010100
+POS 0 2,7
+
+SPR a
+00001110
+10000111
+11001110
+10100101
+10111111
+10101111
+01001110
+00001010
+NAME Guard
+DLG 0
+POS 0 13,7
+
+SPR b
+00001100
+01111110
+11111011
+11111111
+10110011
+11101110
+11111000
+01101100
+>
+01111110
+11111111
+11111011
+10111111
+11100011
+11111100
+01001000
+01101100
+NAME Waiter
+DLG 4
+POS 0 3,7
+
+SPR c
+00111100
+00101010
+00110010
+00011100
+00011100
+00011100
+00010100
+00011010
+>
+00011100
+01111010
+01101110
+00110010
+00011100
+00011100
+00011100
+00110110
+NAME Waiter2
+DLG 5
+POS 0 4,7
+
+SPR d
+01111100
+11110010
+11011100
+10110100
+11111101
+11111011
+01110101
+00111100
+>
+00000000
+01111100
+11110010
+10011110
+11101101
+11111011
+11110101
+01111100
+NAME Waiter3
+DLG 6
+POS 0 5,7
+
+SPR e
+00000000
+00111000
+01010100
+01101100
+01111100
+00111100
+00111100
+01100110
+>
+01111000
+01010100
+01111100
+01100100
+00111100
+00111100
+00100100
+01100110
+NAME Waiter4
+DLG 7
+POS 0 6,7
+
+SPR f
+00000000
+00011100
+00101100
+00111000
+01110000
+01111000
+00101000
+00101100
+>
+00011100
+00101100
+00111000
+01110000
+01111000
+01111000
+00101000
+00101100
+NAME Waiter5
+DLG 8
+POS 0 7,7
+
+SPR g
+00111100
+01111100
+11110100
+11011101
+01110011
+01111110
+00111100
+01110110
+>
+01111100
+11111000
+11011101
+01100011
+01111111
+01111110
+00111100
+01110110
+NAME Waiter6
+DLG 9
+POS 0 8,7
+
+SPR h
+00111100
+00101010
+00011100
+00111000
+00111000
+00111000
+00010110
+00110000
+>
+00000000
+00011100
+00101010
+00011100
+00111000
+01011000
+00010110
+00110000
+NAME Waiter7
+DLG a
+POS 0 9,7
+
+SPR i
+01111100
+11111010
+11101110
+10101100
+11101100
+11111100
+01111000
+01001000
+>
+00000000
+01111100
+11111010
+10101110
+11101100
+11101100
+01111000
+01001000
+NAME Waiter8
+DLG b
+POS 0 10,7
+
+SPR j
+00000000
+00111110
+01111101
+11010011
+11111110
+01111100
+00000000
+00000000
+>
+00000000
+00000000
+01111110
+11010101
+11111111
+01111110
+00000000
+00000000
+NAME Waiter9
+DLG c
+POS 0 11,7
+
+ITM 0
+00000000
+00000000
+00011000
+00100100
+00100100
+00111000
+00000000
+00000000
+NAME tea
+DLG 1
+
+ITM 1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME key
+DLG 2
+BLIP 2
+
+ITM 2
+00000000
+00000000
+00000000
+00000000
+00111100
+01111110
+00111100
+00000000
+NAME coin
+
+ITM 3
+00000000
+00000000
+00000000
+00110000
+00000000
+00000000
+00000000
+00000000
+NAME Help Token
+DLG d
+
+ITM 4
+00000000
+00000000
+00000000
+00000000
+10000000
+00000000
+00000000
+00000000
+NAME Help Complete
+
+ITM 5
+00000000
+00000000
+00000000
+00000001
+00000000
+00000000
+00000000
+00000000
+NAME Volunteer Token
+
+ITM 6
+00000000
+00000000
+00010000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Queuer Token
+
+ITM 7
+00000000
+00000000
+00010000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Cheese
+
+ITM 8
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+10000000
+DLG e
+
+ITM 9
+10000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME BBQuest
+
+ITM a
+00000000
+00001000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Radishes
+
+ITM b
+01000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME FOod
+
+ITM c
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+ITM d
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+DLG 0
+"""
+Halt! You may not enter! The Mayor is busy! End of the line!{exit "0" 2 7}{
+  - {item "0"} == 0 ?
+    ...{item "0" {{item "0"} + 1}}
+}
+"""
+NAME Guard dialog
+
+DLG 1
+
+NAME tea dialog
+
+DLG 2
+A key! {wvy}What does it open?{wvy}
+NAME key dialog
+
+DLG 3
+You walk through the doorway
+NAME exit narration 1
+
+DLG 4
+"""
+{
+  - {item "0"} == 0 ?
+    This line is so long...
+  - {item "0"} == 1 ?
+     I need to talk to the mayor. I have too many radishes!{
+      - {item "9"} == 1 ?
+        
+        Someone needs radishes?! Oh thank Thing! My house is full of em!{item "a" 1}{item "4" {{item "4"} + 1}}
+    }
+}
+"""
+NAME Waiter dialog
+
+DLG 5
+"""
+{
+  - {item "0"} == 0 ?
+    I've been here forever!
+  - else ?
+    The mayor needs to hear about this! 
+    Snooze-o has been asleep for too long! 
+    I can't stand it!{
+      - {item "c"} == 1 ?
+        
+        Thank you so much! Now it can finally do some housework!{item "4" {{item "4"} + 1}}
+    }
+}
+"""
+NAME Waiter2 dialog
+
+DLG 6
+"""
+{
+  - {item "0"} == 0 ?
+    ZZzzz... Zzzz... Zzz...
+  - else ?
+    ZzzzZZZzzz... ZZZzzzzz...
+}{
+  - {item "7"} == 1 ?
+    
+    ZZZzzzz... ZZzz- Hmm? is that cheese I smell? It is! I smelt it in my dream!......WHERE AM I!?{item "4" {{item "4"} + 1}}{item "c" 1}
+}
+"""
+NAME Waiter3 dialog
+
+DLG 7
+"""
+{
+  - {item "0"} == 0 ?
+    Hey! Don't cut the line!
+  - else ?
+    I've got a family to feed! The mayor can't keep ignoring me!{
+      - {item "b"} == 1 ?
+        
+        A town BBQ? That'll feed my family for days! Thank you!{item "b" 0}{item "4" {{item "4"} + 1}}
+    }
+}
+"""
+NAME Waiter4 dialog
+
+DLG 8
+"""
+{
+  - {item "0"} == 0 ?
+    Hello! Would you like to buy some 
+    {wvy}Fragrant Cheese?{/wvy}{
+      - {item "2"} == 0 ?
+        
+        
+        Oh but you have no coin! I'm sorry I am a business-thing and I cannot make a bad deal.
+    }
+  - else ?
+    Would you like to buy some 
+    {wvy}Fragrant Cheese?{/wvy}{
+      - {item "2"} == 1 ?
+        
+        You have coin?! I shall procure my most {wvy}pungent{/wvy} slice. So smelly it could wake the dead!{item "7" 1}{item "4" {{item "4"} + 1}}
+      - else ?
+        
+        Unfortunately I don't spy any coin on you.
+    }
+}
+"""
+NAME Waiter5 dialog
+
+DLG 9
+"""
+{
+  - {item "0"} == 0 ?
+    Hello!
+  - else ?
+    I don't need to see the mayor! I just love standing in lines!
+}{
+  - {item "3"} == 1 ?
+    {
+      - {item "5"} == 1 ?
+        
+        New queuing technology?! Sign me up!{item "4" {{item "4"} + 1}}{item "5" 0}{item "6" 1}
+    }
+}
+"""
+NAME Waiter6 dialog
+
+DLG a
+"""
+{
+  - {item "0"} == 0 ?
+    Will this last all day?
+  - else ?
+    I need to speak to the mayor about a new queuing business. I have no volunteers to test my new queuing technology! I'm so desperate! I'll pay coin to anyone who can find me even one volunteer!{item "5" 1}{
+      - {item "6"} == 1 ?
+        
+        
+        You found me a volunteer! Thank you so much! Here is your coin.{item "4" {{item "4"} + 1}}{item "6" 0}{item "2" 1}
+    }
+}
+"""
+NAME Waiter7 dialog
+
+DLG b
+"""
+{
+  - {item "0"} == 0 ?
+    OOoooOooOoOOOOooo (This is ghost speak for "I have an appointment with the mayor.") 
+  - else ?
+    OOOOoOooooooOOOoo ("My shipment of radishes is late and I cannot make the stew for the town BBQ!"){item "9" 1}{
+      - {item "a"} == 1 ?
+        
+        OOOOoooOoOoOooOOO! ("You found me some radishes? I'll get to preparing the food for everyone right away!"){item "b" 1}{item "4" {{item "4"} + 1}}
+    }
+}
+"""
+NAME Waiter8 dialog
+
+DLG c
+"""
+{
+  - {item "0"} == 0 ?
+    Hey can you wait?
+  - else ?
+    I'm friends with the mayor and they've been so stressed with the amount of things coming with problems. I'll let you take my place in line if you can help some of these things.{
+      - {item "3"} == 0 ?
+        {item "3" {{item "3"} + 1}}
+    }{
+      - {item "4"} >= 8 ?
+        
+        Thank you so much. Now I can stop holding up the line.            {end}
+        You manage to speak to the mayor about your trivial problem and have it resolved. Good job! The end.
+    }
+}
+"""
+NAME Waiter9 dialog
+
+DLG d
+New Quest: Help things
+NAME Help Token dialog
+
+DLG e
+You can talk to the things of the village to get to the front of the line.
+NAME item 8 dialog
+
+VAR a
+42
+
+TUNE 1
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16d2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+4l,0,0,0,s,0,3l,0,0,0,2s,0,2m,0,2r,0
+16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16l2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3l,0,0,0,s,0,4m,0,0,0,4r,0,0,0,0,0
+16s2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME finale fanfare
+KEY C,D,E,F,G,A,B d,r,m,s,l
+TMP XFST
+SQR P2 P8
+ARP INT8
+
+TUNE 2
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,2G,0
+G3,0,D,0,G3,0,D,0,2A3,0,E,0,C,0,E,0
+>
+2F#,0,G,0,A,0,F#,0,2E,0,F#,E,4D,0,0,0
+2D,0,E,0,F#,0,D,0,2C,0,2G3,0,2F#3,0,D2,0
+>
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,G,0
+2G2,0,D,D5,G3,G,D,0,2C2,0,E,E5,C3,C,E5,0
+>
+2D,0,C5,B,A,0,A,0,4A,0,0,0,F#,0,0,0
+A2,0,E3,0,C3,0,E3,0,D3,0,A3,0,D,0,0,0
+>
+2E5,0,2G,0,2G5,0,2G,0,2F#5,0,2E5,0,2D5,0,2C5,0
+2C3,0,2E,0,2E5,0,2C,0,2A3,0,2C,0,2F#,0,2E,0
+>
+3B,0,0,0,2E5,0,D5,0,4A,0,0,0,G,0,0,0
+2G3,0,B3,0,2D,0,D3,0,2C3,0,G3,0,D#,0,0,0
+>
+0,0,2G,0,A,0,2B,0,C5,0,B,C5,A,0,G,0
+A2,0,A3,0,C,0,2D,0,D#,0,D,E,C,0,C3,0
+>
+8B,0,0,0,0,0,0,0,A,0,2F#,0,E,0,D,0
+D3,0,A3,0,F#,0,D,0,C,0,2D3,0,C3,0,F#3,0
+NAME tuneful town
+TMP FST
+SQR P4 P2
+
+TUNE 3
+3F5,0,0,A#,0,2C#5,0,A#,3F5,0,0,F#5,0,0,2F5,0
+A#3,C#,F,0,0,F,C#,F,A#3,C#,F,A#,0,A#,C#,F
+>
+3F5,0,0,A,0,2C#5,0,A,3F5,0,0,2A#5,0,A#,D#5,0
+A3,C#,F,A3,0,F,C#,F,A,C#,F,0,D#,0,C#5,0
+>
+4F5,0,0,0,G#,2C#5,0,G#,3F5,0,0,D#5,0,F5,2C#5,0
+G#3,C#,F,3F#,0,0,2F,0,G#3,C#,F,F#,B,A,F,D#
+>
+4D#5,0,0,0,0,0,2A#,0,4A#,0,0,0,0,0,A#,C5
+G3,D#,F,G,0,D#,F,G,G3,D#,G,F,0,F,D#,C#3
+>
+4C#5,0,0,0,0,0,2C#5,0,3C#5,0,0,D#5,0,0,2C#5,0
+F#2,C#,F#3,A#3,0,F#3,C#3,F#3,F#2,A,F#3,C#,0,F#3,A3,F#3
+>
+3C#5,0,0,F,3C5,0,0,C,3C5,0,0,D#,3A#,0,0,0
+F2,D#3,A3,0,0,F3,C#,0,F#2,A#3,D#3,0,0,F#3,C#,C
+>
+3A#,0,0,0,C5,0,C#5,0,A#,0,C#,D#,G#,G#3,0,C#3
+C3,A#3,C,E,A,0,A#,0,0,B2,B3,0,2F,0,0,0
+>
+A#,0,A#3,0,C#,0,F,0,A#,0,0,0,0,0,0,0
+A#2,0,C#3,0,F3,0,A#3,0,D,0,0,0,0,F#3,0,F3
+NAME rhythmic ruins
+TMP MED
+SQR P4 P4
+
+BLIP 1
+E5,B5,B5
+NAME meow
+ENV 40 99 4 185 138
+BEAT 61 115
+SQR P2
+
+BLIP 2
+D5,E5,D5
+NAME pick up key
+ENV 99 65 6 96 152
+BEAT 95 0
+SQR P4
+
