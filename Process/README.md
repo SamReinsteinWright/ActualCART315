@@ -17,4 +17,4 @@ whether or not the player had the item or not and that’s the small game
 
 Playtest in class: no one understood that people get new dialogue after certain events. No one liked reading.
 
- ![this is a photo (link to photo)]
+ ![this is a photo](link to photo)
