@@ -18,3 +18,7 @@ whether or not the player had the item or not and that’s the small game
 Playtest in class: no one understood that people get new dialogue after certain events. No one liked reading.
 
  ![this is a photo](link to photo)
+ 
+## Dropper game thing
+Not a lot to report this week I was curious about bouncing materials, as well as trying to keep the balls up. I was 
+also interested in kind of learning for myself how to create objects and use them properly.
