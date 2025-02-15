@@ -42,5 +42,5 @@ Last step is to find a way for the paddles to not start in the middle like theyâ
 
 I ran out of time to fix this bug
 
-##Struggle week (the one where we were supposed to do brick break)
+## Struggle week (the one where we were supposed to do brick break)
 I wanted to work more on the artistic aspect this time around as i enjoy animating. So i drew up a character that would sit on the side of the screen making exclamations as you broke the bricks. Unfortunately before i could download the template (since I missed the class where it was introduced) bell's internet server decided to crash and locked me out of accessing the internat at all until today. I have the drawn chaarcter if you would like to see him but nothing else was able to get done this week.
