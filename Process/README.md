@@ -44,3 +44,20 @@ I ran out of time to fix this bug
 
 ## Struggle week (the one where we were supposed to do brick break)
 I wanted to work more on the artistic aspect this time around as i enjoy animating. So i drew up a character that would sit on the side of the screen making exclamations as you broke the bricks. Unfortunately before i could download the template (since I missed the class where it was introduced) bell's internet server decided to crash and locked me out of accessing the internat at all until today. I have the drawn chaarcter if you would like to see him but nothing else was able to get done this week.
+## making a faudian game
+By attempting to bring the brick breaker into Unity and really failing at that because I missed the class where it was taught how to do all that stuff, so I missed how to import it. 
+
+So I decided to instead just modify a previous project, which I chose the Pong project that we did. 
+
+I want to turn it into a platformer where you can jump move from side to side, all physics based as well, using force as opposed to just predetermined values as well as add a dash or maybe a type of grappling hook mechanic that the grappling hook would be very hard. 
+
+I think it'd be fun. I added in the movement mechanics by bringing over some of the code from the paddle script and giving adding force based on what button is pressed. 
+
+I also added a boolean, checking whether or not the ball has entered contact or exited contact with a tile or a sprite called Brick, because I forgot to learn how to make a a tag myself. 
+
+So I used the brick tag that was already in the game to indicate floor or ground. 
+
+So it has the grounded boolean. You can move and jump. If you're grounded in the air, you can't move, which kind of turns it into almost like a. 
+
+Like a rage game, kind of like a faudian game. The rest of my time was spent making level geometry. I had a couple problems implementing the movement because i chose the player character to be based on the pong ball and so it was rolling around when it moved and the transform up function was relative to the object's orientation.
+
