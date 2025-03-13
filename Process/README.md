@@ -61,3 +61,66 @@ So it has the grounded boolean. You can move and jump. If you're grounded in the
 
 Like a rage game, kind of like a faudian game. The rest of my time was spent making level geometry. I had a couple problems implementing the movement because i chose the player character to be based on the pong ball and so it was rolling around when it moved and the transform up function was relative to the object's orientation.
 
+## march 13th 
+While last week was all about conceptualizing our game coming up with ideas through drawing and talking this week, we wrote down the ideas and broke them up into actionable steps for us to work on today. Many fundamental gameplay concepts were changed from last week to this one. We reworked how the sheep moved to generate a more engaging gameplay experience.
+
+Art
+--Character
+----Image
+----Animation
+--Sheep
+----Image
+----Animation
+--Terrain 
+----Animated?
+--Enemy 
+----Image
+----Animation
+--Points of interest
+----Sprites
+----Animation
+Gameplay
+--Sheep (Your health)
+----Sheep movement
+------Random sheep: idle movement in map 
+------Follow player’s cursor when owned/claimed
+------More sheep in herd makes them all move slower
+
+----Collection	
+------Sheep don't follow directly
+------Collect sheep: Player shouts
+--Player 
+----Player movement 
+------WASD for Shepherd movement (player) 
+------8 directional movement or player facing
+------Player shouts with E, and sheep move quicker but away from the player 
+------Space bar for shooting shotgun
+--------Shotgun mechanics 
+----------Shoot in the last direction player was looking at
+----------Projectile
+------------Shoots 6 pellets
+------------Does not normally pass through enemies
+--Sheep dog (Player 2 in the future)
+----Moves with arrow keys
+--Enemies 
+----Burrower
+------Burrows underground to become invulnerable and deal no damage to then choose a spot to re-emerge.
+------Upon re emerging an area around the enemy erupts dealing killing the sheep
+----Regular enemy
+------Heads towards sheep
+------Kills sheep
+--Swarm
+----Many small enemies
+----Bullets pass through
+
+Structure
+--Multiple pages
+----Game start
+------Title screen
+------Instructions 
+----Gameplay 
+----Game over 
+Camera 
+--Follow player
+
+
