@@ -29,7 +29,7 @@ public class PaddleScript : MonoBehaviour {
         if (Input.GetKey(leftKey) && xPos > leftWall) {
             xPos -= paddleSpeed;
         }
-        transform.localPosition = new Vector3(xPos, yPos, 0);
+        transform.localPosition = new Vector3(StartingPosition+xPos, yPos, 0);
         
     }
 }

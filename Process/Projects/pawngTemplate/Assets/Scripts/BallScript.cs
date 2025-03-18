@@ -1,11 +1,16 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
-public class BallScript : MonoBehaviour {
+public class BallScript : MonoBehaviour
+{
+    public float yPos, xPos;
     public float ballSpeed = 2;
-
+    public KeyCode upKey, downKey, leftKey, rightKey;
     private int [] directions = {-1,1};
     private int hDir, yDir;
+    private bool grounded = false;
 
     public int score1, score2;
     public AudioSource blip;
@@ -21,7 +26,7 @@ public class BallScript : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D wall)
     {
-        if (wall.gameObject.name == "leftWall")
+        /*if (wall.gameObject.name == "leftWall")
         {
             //give points to player 2
             score1++;
@@ -34,7 +39,7 @@ public class BallScript : MonoBehaviour {
             score2++;
             //reset
             Reset();
-        }
+        }*/
 
         if (wall.gameObject.name == "topWall" || wall.gameObject.name == "bottomWall")
         {
@@ -54,11 +59,36 @@ public class BallScript : MonoBehaviour {
             rb.AddForce(transform.up * (posY - rightPosY) * ballSpeed);
             
         }
+
+        if (wall.gameObject.tag == "Brick")
+        {
+            grounded = true;
+        }
     }
+
+    private void OnCollisionExit2D(Collision2D wall)
+    {
+        if (wall.gameObject.tag == "Brick")
+        {
+            grounded = false;
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
-       
+        
+
+        if (Input.GetKey(upKey) && grounded) {
+            rb.AddForce(transform.up * ballSpeed);
+        }
+        if (Input.GetKey(rightKey) && grounded) {
+            rb.AddForce(transform.right * ballSpeed / 25);
+        }
+
+        if (Input.GetKey(leftKey) && grounded) {
+            rb.AddForce(transform.right * ballSpeed / -25);
+        }
     }
 
     private IEnumerator Launch()
