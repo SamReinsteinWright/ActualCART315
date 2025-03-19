@@ -15,18 +15,18 @@ public class PaddleScript : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (Input.GetKey(downKey) && yPos > bottomWall) {
+        if (Input.GetKey(downKey)) {
             yPos -= paddleSpeed;
         }
 
-        if (Input.GetKey(upKey) && yPos < topWall) {
+        if (Input.GetKey(upKey)) {
                 yPos += paddleSpeed;
         }
-        if (Input.GetKey(rightKey) && xPos < rightWall) {
+        if (Input.GetKey(rightKey)) {
             xPos += paddleSpeed;
         }
 
-        if (Input.GetKey(leftKey) && xPos > leftWall) {
+        if (Input.GetKey(leftKey)) {
             xPos -= paddleSpeed;
         }
         transform.localPosition = new Vector3(StartingPosition+xPos, yPos, 0);
