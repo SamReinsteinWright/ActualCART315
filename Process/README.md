@@ -123,4 +123,14 @@ Structure
 Camera 
 --Follow player
 
+ ## Actually making a game
+ This week was a big one.First off I imported the pong template because I had already created a movement script in there for the main character. I then got distracted and made the background image for the start menu of the game. (here is the link to the image in my drive as I forgot how to insert images: https://drive.google.com/file/d/1kzoeCdu3UHMH1B7Qn9Cn1VNc4MJEDN7Z/view?usp=sharing )I then decided to add in the Sheep. I had forgotten that we had decided to implement the Sheep following Behavior to be to move towards the mouse so I instead implemented a sheep behavior in which they check for collisions in their surroundings if the entity that is entered their View is another sheep they then find out that sheep's movement Direction and speed and add a part of those  values to their own direction and speed which in theory would generate flocking Behavior.  I also added a script that forced the Sheep to move in a random Direction every 5  Seconds this is a temporary fix because I could not test the Sheep running away from the mouse clicks at that point.  I will change it from every 5 Seconds to be every 5 to 10 seconds when the Sheep has been still for those whole 5 seconds. 
+
+ I attempted to implement this Behavior and screwed up some of the numbers making the Sheep repulse each other instead of tend towards each other here is a drive link to a video of that happening: https://drive.google.com/file/d/1wWO5veX0LXgAZ_8NM4h5dGEbV9uBRvZc/view?usp=sharing 
+
+I finally got it working the way I wanted to with a few exceptions that I could not figure out how to implement a Max velocity for the Sheep such that they wouldn't go randomly flying in a Direction the following two links are videos of this working one of them has commentary of US during the creation process. 
+https://drive.google.com/file/d/1vizUScoBPY-gnKhiHUgta7jym1v1yAKV/view?usp=sharing 
+
+https://drive.google.com/file/d/11AunPnHIca51EWG2EQu3A7AOhWO88d1-/view?usp=sharing 
+
 
