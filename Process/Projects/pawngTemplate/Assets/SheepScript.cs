@@ -33,7 +33,9 @@ public class SheepScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     
+        Vector2 vel = rb.linearVelocity;
+        vel.x = Mathf.Clamp(vel.x, -5, 5);
+        rb.linearVelocity = vel;
     }
     private IEnumerator Launch()
     {
