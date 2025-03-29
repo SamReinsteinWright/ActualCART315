@@ -9,6 +9,7 @@ TagManager:
   - Reset
   - Brick
   - Sheep
+  - bullet
   layers:
   - Default
   - TransparentFX
