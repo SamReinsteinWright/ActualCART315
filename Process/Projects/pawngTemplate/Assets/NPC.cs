@@ -17,10 +17,15 @@ public class NPC : MonoBehaviour
 
     void Start()
     {
-        if (dialogueText != null)
-        {
-            dialogueText.text = "";
-        }
+        if (dialoguePanel != null)
+    {
+        dialoguePanel.SetActive(false);  // Ensure it's hidden at the start
+    }
+
+    if (dialogueText != null)
+    {
+        dialogueText.text = "";
+    }
     }
 
     void Update()
