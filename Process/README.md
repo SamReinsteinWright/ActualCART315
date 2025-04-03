@@ -133,4 +133,10 @@ https://drive.google.com/file/d/1vizUScoBPY-gnKhiHUgta7jym1v1yAKV/view?usp=shari
 
 https://drive.google.com/file/d/11AunPnHIca51EWG2EQu3A7AOhWO88d1-/view?usp=sharing 
 
+## Adding bullets
+This weeks goal was to add shooting into the game. Now I had a couple decisions to make; how do we decide the direction of fire? How do we implement firing a shotgun? So firstly, I decided on making projectiles because I couldn’t find spawning a hit box in the shape of what I wanted to be practical as there are not cone shaped boxes so making a cone shaped box myself would be annoying. I also decided to have the direction of the shot go towards the mouse because that is the most precise instrument the computer has for dictating input as well, this could lend itself to increased gameplay intensity. As now you are going back-and-forth, tending to your herd and shooting enemies. I also added in that your character tilt itself towards the direction of the mouse. Below are some videos of the production.
+
+
+https://drive.google.com/file/d/1-HkvzCx2So4GhtjxybxAoZs99Kk0O56I/view?usp=sharing
+
 
