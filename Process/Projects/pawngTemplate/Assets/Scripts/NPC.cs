@@ -15,9 +15,9 @@ public class NPC : MonoBehaviour
     public float wordSpeed = 0.05f; // Default value to avoid 0
     public bool playerIsClose;
 
-    void Start()
-    {
-        if (dialoguePanel != null)
+ void Start()
+{
+    if (dialoguePanel != null)
     {
         dialoguePanel.SetActive(false);  // Ensure it's hidden at the start
     }
@@ -26,7 +26,7 @@ public class NPC : MonoBehaviour
     {
         dialogueText.text = "";
     }
-    }
+}
 
     void Update()
     {
