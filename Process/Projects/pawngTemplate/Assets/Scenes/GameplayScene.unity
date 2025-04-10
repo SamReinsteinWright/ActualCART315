@@ -884,8 +884,6 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
-<<<<<<< Updated upstream
-=======
 --- !u!1001 &535367486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1158,7 +1156,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f261823233c0b844eb7a425d87e5466d, type: 3}
->>>>>>> Stashed changes
 --- !u!1 &611050012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,11 +1252,7 @@ Transform:
   m_GameObject: {fileID: 611050012}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< Updated upstream
-  m_LocalPosition: {x: -9.9836, y: 4.28, z: 0}
-=======
   m_LocalPosition: {x: 17.03, y: 5.23, z: 0}
->>>>>>> Stashed changes
   m_LocalScale: {x: 0.7205, y: 0.7205, z: 0.7205}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4129,14 +4122,10 @@ MonoBehaviour:
   dialogueText: {fileID: 941990151}
   dialogue:
   - Hello
-<<<<<<< Updated upstream
-  - -Text holder for more text-
-=======
   - 'You must relocate your sheep to a safer area! '
   - swipe your mouse across the sheep to influence their movement.
   - But beware! there are dangers about!
   - Use your gun with spacebar to get rid of these dangers
->>>>>>> Stashed changes
   contButton: {fileID: 2095477490}
   wordSpeed: 0.05
   playerIsClose: 0
