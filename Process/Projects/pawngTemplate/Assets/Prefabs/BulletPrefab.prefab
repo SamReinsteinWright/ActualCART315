@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2672802752240836040}
   - component: {fileID: 6352586010766277904}
   - component: {fileID: 6396895705239170573}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BulletPrefab
   m_TagString: bullet
   m_Icon: {fileID: 0}
@@ -168,4 +168,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  lifeTime: 3
+  lifeTime: 1

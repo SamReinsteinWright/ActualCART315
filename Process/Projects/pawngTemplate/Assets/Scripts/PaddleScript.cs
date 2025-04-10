@@ -14,14 +14,14 @@ public class PaddleScript : MonoBehaviour {
     
     private float fireTimer;
     
-    private float     yPos, xPos;
+    public float     yPos, xPos;
     public float      paddleSpeed = 1f;
    
     public KeyCode upKey, downKey, leftKey, rightKey, spaceKey;
    
     // Start is called before the first frame update
     void Start() {
-        transform.localPosition = new Vector3(xPos, yPos, 0);
+        //transform.localPosition = new Vector3(xPos, yPos, 0);
         rb = GetComponent<Rigidbody2D>();
     }
 
